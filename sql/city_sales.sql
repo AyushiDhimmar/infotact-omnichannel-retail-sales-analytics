@@ -1,5 +1,5 @@
 SELECT 
-    City, SUM(Sales) AS City_Sales
+    City, ROUND(SUM(Sales), 2) AS City_Sales
 FROM
     samplesuperstore
 GROUP BY City

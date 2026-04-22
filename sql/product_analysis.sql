@@ -1,5 +1,5 @@
 SELECT 
-    Category, SUM(Sales) AS Total_Sales
+    Category, ROUND(SUM(Sales), 2) AS Total_Sales
 FROM
     samplesuperstore
 GROUP BY Category

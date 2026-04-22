@@ -1,4 +1,4 @@
 SELECT 
-    SUM(Sales) AS Total_Revenue
+    ROUND(SUM(Sales), 2) AS Total_Revenue
 FROM
     samplesuperstore;
