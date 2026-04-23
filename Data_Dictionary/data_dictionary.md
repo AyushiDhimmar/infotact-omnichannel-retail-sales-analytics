@@ -1,16 +1,16 @@
-# 📊 Data Dictionary & Initial Insights
+# Data Dictionary & Initial Insights
 
 ## Project: Retail Sales Analytics
 
 ---
 
-# 🧠 1. Overview
+#  1. Overview
 
 This document explains the dataset used in the project. It helps us understand what each column means and how we can use the data for analysis.
 
 ---
 
-# 📂 2. Data Dictionary
+#  2. Data Dictionary
 
 | Column Name  | Description                                                    | Data Type   |
 | ------------ | -------------------------------------------------------------- | ----------- |
@@ -28,14 +28,14 @@ This document explains the dataset used in the project. It helps us understand w
 
 ---
 
-# 📌 3. Data Types
+#  3. Data Types
 
 * **Categorical Columns:** Ship Mode, Segment, Country, City, State, Category, Sub-Category
 * **Numeric Columns:** Sales, Quantity, Discount, Profit
 
 ---
 
-# ⚠️ 4. Data Issues (Possible)
+#  4. Data Issues (Possible)
 
 While working with the dataset, we may face:
 
@@ -44,7 +44,7 @@ While working with the dataset, we may face:
 * Different formats in data
 * Unusual values (like very high discount or negative profit)
 
-### ✔ What we can do:
+###  What we can do:
 
 * Remove or fix missing values
 * Remove duplicates
@@ -53,44 +53,44 @@ While working with the dataset, we may face:
 
 ---
 
-# 📈 5. Initial Business Insights
+#  5. Initial Business Insights
 
-## 🔥 1. Category Performance
+##  1. Category Performance
 
 We can find which category (Furniture, Technology, etc.) gives the most sales and profit.
-👉 Helps in focusing on best products.
+-->  Helps in focusing on best products.
 
 ---
 
-## 🔥 2. Sales by Location
+##  2. Sales by Location
 
 We can compare sales across cities and states.
-👉 Helps identify strong and weak regions.
+--> Helps identify strong and weak regions.
 
 ---
 
-## 🔥 3. Discount vs Profit
+##  3. Discount vs Profit
 
 High discount may reduce profit.
-👉 Helps in better pricing decisions.
+--> Helps in better pricing decisions.
 
 ---
 
-## 🔥 4. Customer Segments
+##  4. Customer Segments
 
 Different customer types contribute differently to sales.
-👉 Helps target the right customers.
+--> Helps target the right customers.
 
 ---
 
-## 🔥 5. Product Demand
+##  5. Product Demand
 
 Quantity shows which products are in high demand.
-👉 Helps in stock planning.
+--> Helps in stock planning.
 
 ---
 
-# 🚀 6. Conclusion
+#  6. Conclusion
 
 This data dictionary helps us understand the dataset clearly and prepares us for further analysis, SQL queries, and dashboard creation.
 
